@@ -68,7 +68,7 @@ export const shareFilesNative = async (files: DriveFile[], title: string = 'My P
     // We'll try to share the first 10 if there are too many, or let the user selected specific ones.
     const filesToShare: File[] = [];
 
-    for (const file of files.slice(0, 10)) {
+    for (const file of files.slice(0, 30)) {
         try {
             const blob = await fetchFileBlob(file);
             // Reconstitute as a File object
