@@ -382,7 +382,7 @@ function App() {
           </main>
 
           <footer className="text-center py-4 text-xs text-gray-600 border-t border-gray-900 bg-black/20">
-            Made by <a href="https://www.linkedin.com/in/imaryan02/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-purple-400 font-bold transition-colors">Aryan Gupta</a>
+            Made by <a href="https://www.linkedin.com/in/imaryan02/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-purple-400 font-bold transition-colors">Aryan Gupta</a> • Made In India 🇮🇳
           </footer>
         </>
       )}

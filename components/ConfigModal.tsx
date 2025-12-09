@@ -65,8 +65,10 @@ export const ConfigModal: React.FC<ConfigModalProps> = ({ onSave }) => {
         {/* HERO SECTION */}
         <div className="text-center max-w-4xl mx-auto mb-16 animate-fade-in-up">
           <div className="inline-block mb-6">
-            <span className="px-3 py-1 rounded-full border border-primary/30 bg-primary/10 text-primary text-xs font-bold tracking-wider uppercase">
-              Next Gen Gallery
+            <span className="px-3 py-1 rounded-full border border-primary/30 bg-primary/10 text-primary text-xs font-bold tracking-wider uppercase flex items-center gap-2">
+              <span>Next Gen Gallery</span>
+              <span className="w-1 h-1 rounded-full bg-primary"></span>
+              <span>Made In India 🇮🇳</span>
             </span>
           </div>
 
@@ -164,7 +166,7 @@ export const ConfigModal: React.FC<ConfigModalProps> = ({ onSave }) => {
 
       {/* FOOTER */}
       <footer className="w-full py-8 text-center text-xs text-gray-600 border-t border-white/5">
-        <p>© 2025 SpotMe • <a href="https://www.linkedin.com/in/imaryan02/" className="hover:text-primary transition-colors">Aryan Gupta</a></p>
+        <p>© 2025 SpotMe • <a href="https://www.linkedin.com/in/imaryan02/" className="hover:text-primary transition-colors">Aryan Gupta</a> • Made In India 🇮🇳</p>
       </footer>
 
     </div>
